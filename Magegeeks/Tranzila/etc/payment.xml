@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+/**
+* Magegeeks_Tranzila module dependency
+*
+* @category    Magegeeks
+* @package     Magegeeks_Tranzila
+*/
+-->
+<payment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Payment:etc/payment.xsd">
+    <methods>
+        <method name="magegeeks_tranzila">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+    </methods>
+</payment>
